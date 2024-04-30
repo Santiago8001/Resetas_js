@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Master cook</title>
+        <link rel="icon" href="imagenes/icono.png" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="script.js" async></script>
+    </head>
+    <body>
+        <header>
+            <h1>Master cook</h1>
+        </header>
+        <main>
+            <article>
+                <section class="busqueda">
+                    <p>Encuentra las mejores recetas!</p>
+                    <div class="container">
+                        <img src="imagenes/logo.png" alt="logo" height="150px" width="auto"/>
+                        <div class="principal">
+                            <input id="textbox" type="text" placeholder="Buscar plato" maxlength="40" required/>
+                            <button id="button"><img src="imagenes/icono_buscar.png" alt="icono" height="20px" width="auto"/></button>
+                        </div>
+                        <select id="menu" required>
+                            <option value="1">Nombre plato</option>
+                            <option value="2">Ingrediente Principal</option>
+                            <option value="3">Categoria</option>
+                            <option value="4">Area</option>
+                        </select>
+                        <p id="error">Error! en la consulta, realice otra busqueda</p>
+                    </div>
+                </section>
+                <section class="tarjetas">
+                    <div class="container2"></div>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>

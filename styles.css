@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(104, 74, 50);    
+}
+header{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+}
+.busqueda{
+    background-image: url(imagenes/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+    margin: 0px;
+    border-radius: 10px;
+}
+.busqueda > p{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+}
+#textbox{
+    background-color: rgba(130, 110, 94, 0.573);
+    font-family: cursive;
+    font-size: 15px;
+    padding: 8px;
+    padding-right: 40px;
+}
+#button{
+    background-color: rgb(104, 74, 50);
+    color: white;
+    font-family: cursive;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.principal{
+    justify-content: center;
+}
+#menu{
+    background-color: rgba(104, 74, 50, 0.573);
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 0px;
+}
+.tarjetas{
+    background-color: rgba(122, 95, 74, 0.699);
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.2);
+    font-family: "Poppins",sans-serif;
+    font-size: 10px;
+}
+.item > img{
+    width: 100%;
+    height: auto;
+}
+.item >p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.container >p{
+    display: none;
+    font-size: 15px;
+    font-family: cursive;
+}
+.container3{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.2);
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+}
+#nameplato{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(235, 229, 229, 0.525);
+}
+.container3 > div> img{
+    height: 500px;
+    width: auto;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.2);
+}
+.info{
+    padding: 40px;
+    margin: 10px;
+    background-color: rgba(235, 229, 229, 0.525);
+    border-radius: 10px;
+}
+.container3 > div{
+    text-align: center;
+}
+.regresar{
+    height: 20px;
+    width: auto;
+}
